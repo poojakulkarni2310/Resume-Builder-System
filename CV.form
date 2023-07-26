@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CV">
+  <grid id="27dc6" binding="cvPanel" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="856" height="485"/>
+    </constraints>
+    <properties>
+      <background color="-1379595"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="91607" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="118" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="22" style="1"/>
+          <foreground color="-14803426"/>
+          <text value="CV BUILDER"/>
+        </properties>
+      </component>
+      <component id="4d2be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="20" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="PERSINAL INFORMALTION"/>
+        </properties>
+      </component>
+      <component id="62bbb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="FULL NAME :"/>
+        </properties>
+      </component>
+      <component id="4eaf5" class="javax.swing.JTextField" binding="address">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="9a3ba" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="CONTACT :"/>
+        </properties>
+      </component>
+      <component id="512c6" class="javax.swing.JTextField" binding="contact">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="b5921" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="EMAIL :"/>
+        </properties>
+      </component>
+      <component id="e8f9f" class="javax.swing.JTextField" binding="email">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="45043" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="ADDRESS :"/>
+        </properties>
+      </component>
+      <component id="6730" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="504db" class="javax.swing.JButton" binding="SELECTIMAGEButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <text value="SELECT IMAGE "/>
+        </properties>
+      </component>
+      <component id="f794b" class="javax.swing.JTextField" binding="location">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="99142" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="SKILLS"/>
+        </properties>
+      </component>
+      <component id="d3288" class="javax.swing.JTextField" binding="skills1">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="b0405" class="javax.swing.JTextField" binding="skills2">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="89ad3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="WORK EXPERINCE"/>
+        </properties>
+      </component>
+      <component id="1423a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="UNIVERSITY :"/>
+        </properties>
+      </component>
+      <component id="733fc" class="javax.swing.JTextField" binding="collage">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="ece50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="TITLE OF QUALIFICATION A :"/>
+        </properties>
+      </component>
+      <component id="b25f4" class="javax.swing.JTextField" binding="qualiA">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="e1d03" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="TITLE OF QUALIFICATION B :"/>
+        </properties>
+      </component>
+      <component id="8e299" class="javax.swing.JTextField" binding="qualiB">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="6c60c" class="javax.swing.JButton" binding="GENERATERESUMEButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <text value="GENERATE RESUME"/>
+        </properties>
+      </component>
+      <component id="91fae" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Yu Gothic UI Semibold" size="18" style="0"/>
+          <foreground color="-9868951"/>
+          <text value="QUALIFICATION "/>
+        </properties>
+      </component>
+      <component id="5bd00" class="javax.swing.JComboBox" binding="work">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+          <model>
+            <item value="&gt;1 yr"/>
+            <item value="2-4 yrs"/>
+            <item value="3-8 yrs"/>
+          </model>
+        </properties>
+      </component>
+      <component id="72ade" class="javax.swing.JTextField" binding="skills3">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="e3a7b" class="javax.swing.JTextField" binding="skills4">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3023902"/>
+        </properties>
+      </component>
+      <component id="768f2" class="javax.swing.JLabel" binding="img">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8a44" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
